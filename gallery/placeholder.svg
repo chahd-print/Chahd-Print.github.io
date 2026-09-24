@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#122222"/>
+      <stop offset="0.5" stop-color="#1a3535"/>
+      <stop offset="1" stop-color="#122222"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ebc582"/>
+      <stop offset="0.5" stop-color="#d68b2e"/>
+      <stop offset="1" stop-color="#a1551f"/>
+    </linearGradient>
+    <pattern id="arabesque" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 0c16.57 0 30 13.43 30 30s-13.43 30-30 30S0 46.57 0 30 13.43 0 30 0zm0 6c-13.25 0-24 10.75-24 24s10.75 24 24 24 24-10.75 24-24-10.75-24-24-24z" fill="#d68b2e" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#arabesque)"/>
+  <rect x="40" y="40" width="720" height="520" rx="24" stroke="url(#gold)" stroke-opacity="0.35" stroke-width="2" fill="none"/>
+  <g transform="translate(400 270)">
+    <path d="M0 -70l17.63 54.26H74.09L28.18 17.47 45.81 71.73 0 37.47l-45.81 34.26L-28.18 17.47-74.09-15.74H-17.63z" fill="url(#gold)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="16" fill="#122222"/>
+    <circle cx="0" cy="0" r="8" fill="#ebc582"/>
+  </g>
+  <text x="400" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="36" font-weight="700" fill="url(#gold)">CHAHD PRINT</text>
+  <text x="400" y="464" text-anchor="middle" font-family="Amiri, Georgia, serif" font-size="26" fill="#d68b2e">مطبعة شهد</text>
+  <line x1="280" y1="486" x2="520" y2="486" stroke="#d68b2e" stroke-opacity="0.5" stroke-width="1.5"/>
+  <text x="400" y="516" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" letter-spacing="4" fill="#d68b2e" fill-opacity="0.75">DESIGN &amp; IMPRESSION</text>
+</svg>

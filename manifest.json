@@ -1,0 +1,14 @@
+{
+  "name": "CHAHD PRINT — مطبعة شهد",
+  "short_name": "CHAHD PRINT",
+  "description": "CHAHD PRINT — DESIGN & IMPRESSION, QUALITÉ & CRÉATIVITÉ. Impression, cartes de visite, flyers, panneaux, enseignes, signalétique, textile et rénovation de magasins.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#122222",
+  "theme_color": "#122222",
+  "lang": "fr",
+  "dir": "ltr",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
