@@ -1,17 +1,16 @@
 /* CHAHD PRINT — Service Worker (PWA)
    Cache versionné : incrémenter VERSION pour forcer la mise à jour. */
-const VERSION = '1.0.0';
+const VERSION = '1.1.0';
 const STATIC_CACHE = `chahd-static-${VERSION}`;
 const RUNTIME_CACHE = `chahd-runtime-${VERSION}`;
 
 const PRECACHE_URLS = [
   '/',
-  '/icon.svg',
   '/manifest.webmanifest',
   '/pwa/icon-192.png',
   '/pwa/icon-512.png',
   '/pwa/apple-touch-icon.png',
-  '/images/logo-transparent.png',
+  '/images/logo-transparent-512.webp',
   '/gallery/placeholder.svg',
 ];
 
