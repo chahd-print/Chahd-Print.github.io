@@ -1,6 +1,6 @@
 /* CHAHD PRINT — Service Worker (PWA)
    Cache versionné : incrémenter VERSION pour forcer la mise à jour. */
-const VERSION = '1.1.0';
+const VERSION = '1.1.1';
 const STATIC_CACHE = `chahd-static-${VERSION}`;
 const RUNTIME_CACHE = `chahd-runtime-${VERSION}`;
 
@@ -11,7 +11,8 @@ const PRECACHE_URLS = [
   '/pwa/icon-512.png',
   '/pwa/apple-touch-icon.png',
   '/images/logo-transparent-512.webp',
-  '/gallery/placeholder.svg',
+  '/images/banner-1440.webp',
+  '/images/benimellal-960.webp',
 ];
 
 self.addEventListener('install', (event) => {
@@ -50,7 +51,7 @@ async function cacheFirst(request, cacheName) {
     }
     return response;
   } catch (err) {
-    const fallback = await cache.match('/icon.svg');
+    const fallback = await cache.match('/images/logo-transparent-512.webp');
     if (fallback) return fallback;
     throw err;
   }
