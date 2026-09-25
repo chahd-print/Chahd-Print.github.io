@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /admin
 
-Sitemap: https://chahd-print.ma/sitemap.xml
+Sitemap: https://chahd-print.github.io/sitemap.xml

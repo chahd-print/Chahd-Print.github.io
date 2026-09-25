@@ -1,11 +1,11 @@
 {
   "name": "CHAHD PRINT — مطبعة شهد",
   "short_name": "CHAHD PRINT",
-  "description": "CHAHD PRINT — DESIGN & IMPRESSION, QUALITÉ & CRÉATIVITÉ. Impression, cartes de visite, flyers, panneaux, enseignes, signalétique, textile et rénovation de magasins.",
+  "description": "CHAHD PRINT – Design, impression numérique, grand format, impression textile, enseignes, signalétique, packaging, gravure laser et rénovation de magasins au Maroc.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#122222",
-  "theme_color": "#122222",
+  "background_color": "#07110f",
+  "theme_color": "#063f3b",
   "lang": "fr",
   "dir": "ltr",
   "icons": [
